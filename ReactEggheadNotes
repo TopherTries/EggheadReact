@@ -1,0 +1,43 @@
+<!-- 01
+    Created a div with id root within body of html file, 
+    the root acts as place to append JS generated DOM elements,
+    we accessed those elements with JS apis, created our own element 
+    and its properties, then appended that element onto our root element 
+ -->
+<!-- 02
+    Included unpkg for react and react-dom via script tags
+    in order to create react elements.
+    Rendered element to rootElement.
+    Created const element and used React to creat an element, 
+    assigned to const element, which contained a div and two 
+    properties, children and className.
+-->
+<!-- 03
+    JSX is normally used to create UI with React.
+    Via script tag, uses Babel to compile JSX in order for browser to be able 
+    to read language.  
+-->
+<!-- 04
+    Showed how to interpolate variables, using curly braces. There are
+    about 50 different ways to do the same thing with different syntax.
+    That's this entire video, without any explanation of WHY
+    I might do these things different ways.
+    We can interpolate values with curly braces, and have them
+    passed along to the React API.
+    We can spread props in the props props props in a declarative 
+    and deterministic way. Thanks dude. Helpful.
+ -->
+ <!-- 05
+    How do you put two variables side by side and pass them both 
+    as the first argument? You can't. But, using a React Fragment,
+    you can provide both of your children and they become one.
+    This is very common. Open and closing angle brackets do the trick.
+-->
+<!-- 06
+    We wanted to reuse duplicate code in multiple places, which 
+    was done by creating our own custom function component (a function
+    that accepts a props object and returns more React elements).
+-->
+<!-- 07
+    
+-->
